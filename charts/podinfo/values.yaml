@@ -33,6 +33,7 @@ service:
   grpcPort: 9999
   grpcService: podinfo
   nodePort: 31198
+  annotations: {}
 
 # metrics-server add-on required
 hpa:
